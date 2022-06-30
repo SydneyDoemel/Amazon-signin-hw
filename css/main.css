@@ -1,0 +1,81 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.container{
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1.5%;
+    padding: 10px 20px 40px 20px;
+}
+.header {
+    font-size: 25px;;
+}
+img {
+    margin: 0 42vw;
+    height: 50px;
+    
+}
+
+
+
+.pass-label {
+    display: flex;
+    justify-content: space-between;
+}
+.pass-label, .email-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pass-label a {
+    font-weight: normal;
+}
+
+.terms-text {
+    font-size: 14px;
+}
+
+
+.new-text {
+    font-size: 12px;
+    color:rgba(0, 0, 0, .5);
+    height: 8px;
+  
+}
+
+.new-section {
+    display: flex;
+    align-items: baseline;
+}
+.divider {
+    height: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.signin-button {
+    background-color: #f4d587;
+    box-shadow: 0px -10px 20px #ffc533 inset;
+    
+}
+
+.signin-button:hover {
+    background-color: #fdeabb;
+    box-shadow: 0px -10px 20px #ffc533 inset;
+    color: black;
+    
+}
+.create-button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0px -10px 20px #d6d6d6 inset;
+    color: black;
+    
+}
+.create-button {
+    background-color: #eff1f3;
+    box-shadow: 0px -10px 20px #d6d6d6 inset;
+}
